@@ -12,10 +12,6 @@ from numpy.lib.scimath import sqrt
 import time
 import cmath 
 
-def find_nearest_idx(array, value):
-       array = np.asarray(array)
-       return (np.abs(array - value)).argmin()
-
 
 #code_begin_time = start_time = time.time()
 if proc_id==0:
