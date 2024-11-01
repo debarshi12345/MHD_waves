@@ -1,4 +1,5 @@
-  
+# Run using mpirun -np <no of cores> python inertial_wave.py #
+
 from mpi4py import MPI
 comm = MPI.COMM_WORLD
 proc_id = comm.Get_rank()
